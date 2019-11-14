@@ -1,0 +1,164 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/*fontes*/
+
+
+.Roboto_Mono{
+font-family: 'Roboto Mono', monospace;
+}
+.Inconsolatas{
+font-family: 'Inconsolata', monospace;
+}
+.Cousine{
+font-family: 'Cousine', monospace;
+}
+.Anonymous_Pro{
+font-family: 'Anonymous Pro', monospace;
+}
+
+.Open_Sans{
+font-family: 'Open Sans', sans-serif;	
+}
+
+.Montserrat{
+font-family: 'Montserrat', sans-serif;	
+}
+
+.Merriweather{
+font-family: 'Merriweather', serif;	
+	
+}
+
+.Play_Fair_Display{
+font-family: 'Playfair Display', serif;	
+}
+
+
+
+
+
+html, body {
+  margin:0;
+  padding:0;
+  width:100vw;
+  height:100vh;
+  background:black;
+}
+
+
+
+.palavra{
+	color: #FFFFFF;
+    font-size: 550px;
+    text-transform:uppercase;
+	text-align:center;
+	text-overflow:hidden;
+}
+
+#palavra1{
+	color: #FFFFFF;
+	
+}
+
+#button{
+  position: fixed;
+  top: 12%;
+  left: 50%;
+  margin-top: -50px;
+  margin-left: -100px;
+  background-color:#1BFF00;
+  border:none;
+  font-size:18px;
+  font-family: 'Muli', sans-serif;
+  text-transform:uppercase;
+  padding: 12px 38px;
+  border-radius: 16px;
+	
+}
+
+
+/*box1*/	
+
+	#box1{
+	background-color:#000000;
+	width:50vw;
+  	height:50vh;
+	float:left;
+	left:0;
+	top:0;
+	overflow:hidden;
+	}
+
+	#box1 p{
+	margin-top:5vh;
+	margin-left:34.5vw;
+	
+	
+	}
+	
+	
+	
+
+
+/*box2*/
+
+	#box2{
+	background-color:#000000;
+	width:50vw;
+  	height:50vh;
+	float:right;
+	right:0;
+	top:0;
+	overflow:hidden;}
+
+
+	#box2 p{
+	margin-top:5vh;
+	margin-left:-47vw;
+	}
+	
+	
+/*box3*/
+
+	#box3{
+	background-color:#000000;
+	width:50vw;
+  	height:50vh;
+	float:left;
+	left:0;
+	bottom:0;
+	overflow:hidden;
+	}
+
+
+	#box3 p{
+	margin-top:-55vh;
+	margin-left:34.5vw;
+
+    
+	
+	}
+	
+
+/*box4*/
+
+	#box4{background-color:#000000;
+	width:50vw;
+  	height:50vh;
+	overflow:hidden;
+	float:right;
+	right:0;
+	bottom:0;
+	text-overflow:hidden;}
+
+
+	#box4 p{
+	margin-top:-55vh;
+	margin-left:-47vw;
+	}
+	
+
+
+
+
